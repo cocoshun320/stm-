@@ -1,0 +1,14 @@
+# 编译生成的文件（通过 Release 发布）
+stm install.exe
+*.o
+
+# 临时文件
+nul
+*.tmp
+
+# IDE/工具目录
+.arts/
+.codeartsdoer/
+
+# 安装包源文件（太大，不放入仓库，通过 Release 发布）
+程序/

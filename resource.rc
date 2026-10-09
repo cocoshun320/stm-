@@ -1,0 +1,12 @@
+// 资源文件 - 将3个安装包嵌入到最终exe中
+// 资源类型: INSTALLER
+// 资源ID: 100/101/102 对应 CH340/JRE/STM32CubeIDE
+// 图标资源: ID 1 (主图标)
+
+// 主图标 (exe 在资源管理器中显示的图标)
+1 ICON "icon.ico"
+
+// 嵌入的安装包
+100 INSTALLER "程序\\CH340SETUP.EXE"
+101 INSTALLER "程序\\jre-8u503-windows-x64.exe"
+102 INSTALLER "程序\\st-stm32cubeide_1.17.0_23558_20241125_2245_x86_64.exe"
